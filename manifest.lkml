@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "connection name"
+  value: "cortex-qa"
   export: override_required
 }
 
 constant: GCP_PROJECT_ID {
-  value: "gcp project id"
+  value: "kittycorn-looker-qa"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "reporting dataset"
+  value: "CORTEX_K9_ECC_REPORTING"
   export: override_required
 }
 
